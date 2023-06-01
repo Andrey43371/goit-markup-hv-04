@@ -16,7 +16,16 @@ body {
   background: #ffffff;
   color: #434455;
 }
-p, h1, h2, h3, h4, h5, h6, ul, a, img {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a,
+img {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -24,21 +33,26 @@ p, h1, h2, h3, h4, h5, h6, ul, a, img {
   display: block;
 }
 
-
-
 /* =======Main Page======== */
-
 
 /* section 1 */
 
 .heroimage {
-   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  padding: 188px 0;
   height: 600px;
-  background: var(--second-pege-background);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background: var(--second-pege-background); */
 }
 
 .caption {
-margin: auto;
+  margin: auto;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -48,7 +62,6 @@ margin: auto;
 }
 
 .button {
-
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -80,7 +93,7 @@ margin: auto;
 
 /* section 2 */
 .sectionblok {
- padding: 120px 0
+  padding: 120px 0;
 }
 .heading {
   position: absolute;
@@ -107,7 +120,7 @@ margin: auto;
   padding: 0px;
 }
 .featuretitle {
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 .item {
   line-height: 1.5;
@@ -117,7 +130,7 @@ margin-bottom: 8px;
 
 /* section 3 */
 .sectionservice {
-  padding-bottom: 120px; 
+  padding-bottom: 120px;
 }
 
 .headlinesection {
@@ -132,27 +145,26 @@ margin-bottom: 8px;
 
 .service {
   display: flex;
-flex-wrap: wrap;
-   gap: 24px;
-  
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .icon {
   padding: 0px;
-flex-direction: column;
-align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* section 4 */
 
 .sectionfour {
-padding: 120px 0;
+  padding: 120px 0;
   background-color: #f4f4fd;
   height: 732px;
 }
 
 .headlinesections {
-margin-bottom: 72px;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -161,8 +173,8 @@ margin-bottom: 72px;
   color: var(--first-text-color);
 }
 .four {
- display: flex;
-  gap: 24px; 
+  display: flex;
+  gap: 24px;
 }
 
 .picture {
@@ -173,10 +185,10 @@ margin-bottom: 72px;
   border-radius: 0px 0px 4px 4px;
 }
 .aside {
-  padding: 32px 16px ;
+  padding: 32px 16px;
 }
 
-.title { 
+.title {
   margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -196,7 +208,7 @@ margin-bottom: 72px;
 .box {
   padding: 100px 0;
   background: var(--second-pege-background);
-   text-align: left;
+  text-align: left;
 }
 
 .box-link {
@@ -210,7 +222,7 @@ margin-bottom: 72px;
   text-transform: uppercase;
   color: var(--third-text-color);
   text-decoration: none;
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .box-logo-studio {
@@ -235,7 +247,6 @@ margin-bottom: 16px;
     padding: 0;
 } */
 
-
 .header {
   height: 72px;
   background: #ffffff;
@@ -243,7 +254,7 @@ margin-bottom: 16px;
 }
 
 .container-header {
-height: 72px;
+  height: 72px;
   display: flex;
   justify-content: space-around;
 }
@@ -255,10 +266,10 @@ height: 72px;
 }
 
 .header-nav {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
 }
 
 .header-logo {
@@ -299,7 +310,7 @@ padding: 0px;
   flex-grow: 0;
 }
 .link {
- color: var(--first-text-color);
+  color: var(--first-text-color);
 }
 
 .menu {
@@ -314,7 +325,7 @@ padding: 0px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-padding: 24px 0;
+  padding: 24px 0;
 }
 
 .menu,
@@ -326,11 +337,11 @@ padding: 24px 0;
 .address {
   font-style: normal;
   color: #404bbf;
-} 
+}
 
 /*contacts */
 
-.address{
+.address {
   font-style: normal;
   margin-left: auto;
 }
@@ -346,9 +357,7 @@ padding: 24px 0;
   justify-content: flex-end;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
 }
-
 
 /* btn */
 
@@ -392,7 +401,7 @@ padding: 24px 0;
 .containerrow {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; 
+  border-top: none;
 }
 .items-row-item {
   width: calc((100% - 48px) / 3);
