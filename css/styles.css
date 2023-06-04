@@ -237,6 +237,9 @@ img {
   align-items: center;
   justify-content: center;
 }
+.fourlist-link:hover,:focus {
+  background-color: #404bbf;
+}
 /* section 5 */
 .customers {
   padding-top: 120px;
