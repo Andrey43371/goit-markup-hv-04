@@ -287,18 +287,16 @@ img {
 
 /* footer */
 .footerbox {
-  display: flex;
-  align-items: baseline;
- padding: 100px 0;
-  background: var(--second-pege-background);
-  text-align: left;
+
 }
 
-/* .box {
+.box {
+    display: flex;
+  align-items: baseline;
   padding: 100px 0;
   background: var(--second-pege-background);
   text-align: left;
-} */
+}
 .footerboxlogo {
   margin-right: 120px;
 }
