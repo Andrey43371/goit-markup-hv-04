@@ -287,12 +287,12 @@ img {
 
 /* footer */
 .footerbox {
-
+    display: flex;
+  align-items: baseline;
 }
 
 .box {
-    display: flex;
-  align-items: baseline;
+
   padding: 100px 0;
   background: var(--second-pege-background);
   text-align: left;
