@@ -294,7 +294,7 @@ img {
 .footerbox {
   display: flex;
   align-items: baseline;
-  margin-left: 400px;
+  margin-left: 360px;
 }
 
 .box {
@@ -554,6 +554,7 @@ fill: var(--second-icon-color);
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  color: #2E2F42;
 }
 .items-row-lead {
   line-height: 1.5;
