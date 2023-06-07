@@ -11,6 +11,7 @@
   --filters-background-color: #f4f4fd;
   --first-icon-color: #8e8f99;
   --color-footer-text: #ffffff;
+  --second-icon-color:#f4f4fd;
 }
 
 body {
@@ -359,6 +360,9 @@ img {
 .footerlink:hover,
 .footerlink:focus {
   background-color: #31d0aa;
+}
+.footersvg {
+fill: var(--second-icon-color);
 }
 
 /* ======================Portfolio======================== */
