@@ -277,7 +277,7 @@ img {
   color: var(--first-icon-color);
 }
 .fivelist-link:hover,
-:focus {
+.fivelist-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -357,6 +357,9 @@ img {
    display: flex; 
    align-items: center;
     justify-content: center;
+}
+.footerlink:hover, .footerlink:focus {
+background-color: #31d0aa;
 }
 
 /* ======================Portfolio======================== */
@@ -454,7 +457,7 @@ img {
 .link:hover,
 .mail:hover,
 .menu,
-.link:focus,
+/* .link:focus, */
 .mail:focus,
 .address {
   font-style: normal;
