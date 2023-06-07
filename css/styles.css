@@ -281,8 +281,8 @@ img {
   justify-content: center;
   color: var(--first-icon-color);
 }
-.fivelist-link:hover,
-.fivelist-link:focus {
+.fivelist-icon:hover,
+.fivelist-icon:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
