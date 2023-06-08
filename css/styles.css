@@ -283,11 +283,12 @@ img {
 }
 
 .fivelist-link:hover,
-.fivelist-link:focus,
- .fivelisthover:hover,
- .fivelisthover:focus {
+.fivelist-link:focus {
   border-color: #404bbf;
   color: #404bbf;
+}
+.fivelist-link:hover .fivelist-icon {
+  fill: #404bbf;
 }
 .fivelist-icon {
   fill: currentColor;
