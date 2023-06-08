@@ -285,6 +285,7 @@ img {
 .fivelist-link:focus {
   border-color: #404bbf;
   color: #404bbf;
+  color: #8e8f99;
 }
 .fivelist-icon {
   fill: currentColor;
