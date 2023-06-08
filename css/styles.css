@@ -281,11 +281,13 @@ img {
   justify-content: center;
   color: var(--first-icon-color);
 }
+
 .fivelist-link:hover,
-.fivelist-link:focus {
+.fivelist-link:focus,
+ .fivelisthover:hover,
+ .fivelisthover:focus {
   border-color: #404bbf;
   color: #404bbf;
-  color: #8e8f99;
 }
 .fivelist-icon {
   fill: currentColor;
