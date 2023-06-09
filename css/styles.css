@@ -299,7 +299,8 @@ img {
 .footerbox {
   display: flex;
   align-items: baseline;
-  margin-left: 360px;
+ width: 1158px;
+    margin: 0 auto;
 }
 
 .box {
