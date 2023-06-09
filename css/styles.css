@@ -303,6 +303,7 @@ img {
 }
 
 .box {
+  display: flex;
   padding: 100px 0;
   background: var(--second-pege-background);
   text-align: left;
