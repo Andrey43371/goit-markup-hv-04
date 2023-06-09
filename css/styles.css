@@ -279,7 +279,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--first-icon-color);
+  fill: var(--first-icon-color);
 }
 
 .fivelist-link:hover, .fivelist-link:focus {
