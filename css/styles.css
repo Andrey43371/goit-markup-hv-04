@@ -282,7 +282,7 @@ img {
   color: var(--first-icon-color);
 }
 
-.fivelist-link:hover {
+.fivelist-link:hover, .fivelist-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -290,6 +290,8 @@ img {
   fill: #404bbf;
 } */
 .fivelist-icon {
+  width: 100px;
+  height: 60px;
   fill: currentColor;
 }
 
